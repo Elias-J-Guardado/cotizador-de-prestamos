@@ -1,16 +1,56 @@
-# React + Vite
+# cotizador-prestamos-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tabla de contenidos
+- [Descripción](#descripción)
+- [Requisitos Previos](#requisitos-previos)
+- [Instalación](#instalación)
+- [Estructura del proyecto](#estructura-del-proyecto)
 
-Currently, two official plugins are available:
+## Descripción 
+Aplicación creada en ReactJS que simula el calculo de un prestamo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Requisitos previos
+- pnpm (npm install -g pnpm)
 
-## React Compiler
+## Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clona el repositorio
+```bash
+git clone https://github.com/Elias-J-Guardado/cotizador-de-prestamos.git
+```
 
-## Expanding the ESLint configuration
+2. Instala las dependencias
+```bash
+pnpm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Inicia el servidor de desarrollo
+``` bash
+pnpm dev
+```
+
+## Estructura del proyecto
+
+```
+.
+├── dist
+│   ├── assets
+│   ├── icons.svg
+│   └── index.html
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.cjs
+├── public
+│   └── icons.svg
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── components
+│   ├── helpers
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.cjs
+└── vite.config.js
+```
